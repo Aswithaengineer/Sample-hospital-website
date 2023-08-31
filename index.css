@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=PT+Serif:ital@1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* header  */
+header {
+  background-color: rebeccapurple;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: large;
+}
+.name i {
+  padding-right: 12px;
+}
+
+.menu a {
+  color: yellow;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.menu {
+  padding-top: 10px;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* section */
+.img img {
+  width: 100%;
+}
+
+.head {
+  background-color: black;
+}
+
+.head h1 {
+  animation: hosp;
+  animation-duration: 5s;
+  font-size: 50px;
+  padding: 10px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.a h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 15px;
+}
+
+.about {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  padding: 15px;
+  border-radius: 10px;
+}
+.about img {
+  width: 16%;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.img p {
+  text-indent: 250px;
+  font-style: inherit;
+}
+
+/* services */
+.services h1 {
+  padding: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.box1 {
+  width: 20%;
+  background-color: rgb(231, 202, 231);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.box2 {
+  width: 20%;
+  background-color: rgb(231, 202, 231);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.box3 {
+  width: 20%;
+  background-color: rgb(231, 202, 231);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* contact */
+.contact {
+  background-color: black;
+  color: white;
+}
+
+.c {
+  padding: 20px;
+}
+
+.address {
+  padding: 20px;
+}
+
+.d {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* services */
+.ortho {
+  width: 80%;
+  margin: auto;
+  background-color: darkcyan;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ortho img {
+  width: 70%;
+  padding: 30px;
+  margin-top: 40px;
+}
+.ortho h1 {
+  padding: 20px;
+}
+
+.ortho p {
+  padding: 30px;
+  text-align: justify;
+}
+
+.plasticsurg {
+  width: 80%;
+  margin: auto;
+  background-color: darkcyan;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plasticsurg img {
+  width: 70%;
+  padding: 30px;
+  margin-top: 40px;
+}
+.plasticsurg h1 {
+  padding: 20px;
+}
+.plasticsurg p {
+  padding: 30px;
+  text-align: justify;
+}
+
+.heartsurg {
+  width: 80%;
+  margin: auto;
+  background-color: darkcyan;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heartsurg img {
+  width: 70%;
+  padding: 30px;
+  margin-top: 40px;
+}
+.heartsurg h1 {
+  padding: 20px;
+}
+.heartsurg p {
+  padding: 30px;
+  text-align: justify;
+}
+
+.neurosurg {
+  width: 80%;
+  margin: auto;
+  background-color: darkcyan;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.neurosurg img {
+  width: 70%;
+  padding: 30px;
+  margin-top: 40px;
+}
+.neurosurg h1 {
+  padding: 20px;
+}
+.neurosurg p {
+  padding: 30px;
+  text-align: justify;
+}
+
+/* about us */
+
+.ab {
+  padding: 20px;
+}
+
+.abb {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.ab h1 {
+  text-align: center;
+}
+.ab1 h2 {
+  padding: 30px;
+}
+.ab1 img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.ab1 p {
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  padding: 30px;
+  text-align: justify;
+}
+
+.ab2 h2 {
+  padding: 30px;
+}
+.ab2 img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.ab2 p {
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  padding: 30px;
+  text-align: justify;
+}
+
+.ab3 h2 {
+  padding: 30px;
+}
+.ab3 img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+.ab3 p {
+  font-family: "PT Serif", serif;
+  font-size: 30px;
+  padding: 30px;
+  text-align: justify;
+}
+
+.ab2a {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ab21 {
+  width: 50%;
+}
+
+.ab22 {
+  width: 50%;
+}
+.ab22 img {
+  width: 35%;
+}
+
+.ab2a {
+  padding-bottom: 30px;
+}
+
+.ab1 {
+  padding-bottom: 30px;
+}
+
+/* doctors */
+
+.dr {
+  width: 30%;
+  margin: auto;
+  background-color: wheat;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.dr img {
+  width: 70%;
+  padding: 20px;
+  border-radius: 10px;
+}
+.dr h1 {
+  padding: 5px;
+}
+.dr h3 {
+  padding: 5px;
+}
+.share a {
+  padding: 10px;
+  color: blueviolet;
+}
+
+.drs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/* book now */
+.app {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: bisque;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+.app input {
+  width: 60%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  display: block;
+  margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.image img {
+  width: 60%;
+  margin-left: 100px;
+  margin-top: 35px;
+}
+.app .btn {
+  padding: 5px;
+  background-color: blueviolet;
+  padding: 5px;
+  color: aliceblue;
+  width: 80px;
+}
+
+.books h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
